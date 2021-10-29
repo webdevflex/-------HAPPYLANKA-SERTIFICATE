@@ -59,7 +59,7 @@ function svgSprite(){
         .pipe(svgSpritess({
             mode:{
                 stack:{
-                    sprite:'../sprite.svg'
+                    sprite:'../sprite-certifikate.svg'
                 }
             },
         }
