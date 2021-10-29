@@ -137,3 +137,22 @@ body{
 .img-patern-right{
     right: 30px;
 }
+.print-doc{
+    position: absolute;
+    left:-100px;
+}
+.print-doc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.img-print{
+    width: 30px;
+    height: 30px;
+}
+@media print {
+    .print-doc{
+        display: none;
+    }
+}
