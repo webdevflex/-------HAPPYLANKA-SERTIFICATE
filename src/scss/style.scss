@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Philosopher', sans-serif;
+}
+.certificate-wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+  
+}
+.certificate{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.certificate-img{
+    max-width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.certificate-content{
+    margin-top: 100px;
+    // max-width: 570px;
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.certificate-content-logo{
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    img{
+        width: 100%;
+    }
+}
+.certificate-title{
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 8px;
+}
+.certificate-number{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.certificate-service{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.certificate-service-name{
+    font-size: 50px;
+    font-weight: 400;
+
+}
+.certificate-text p{
+    text-align: center;
+    line-height: 177%;
+}
+.certificate-text{
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 30px;
+   
+}
+.certificate-contact{
+    padding-left: 60px;
+    font-size: 22px;
+    margin-bottom: 50px;
+    p{
+        display: flex;
+        align-items: center;
+    }
+}
+.img-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.certificate-contact-item{
+    margin-bottom: 15px;
+}
+.tel{
+    font-size: 30px;
+}
+.certificate-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        margin-bottom: 10px;
+    }
+}
+.certificate-date-dynamic{
+    border: 1px solid black;
+    // width: 100%;
+   padding: 15px 100px;
+   border-radius: 10px;
+   font-size: 27px;
+}
