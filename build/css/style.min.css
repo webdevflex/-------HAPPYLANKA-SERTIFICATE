@@ -400,6 +400,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: white;
+  margin-top: 15px;
 }
 
 .certificate-content-logo {
@@ -594,10 +595,7 @@ body {
     display: none;
   }
   .certificate-img {
-    max-width: 110%;
-  }
-  .certificate-wrapper {
-    margin-top: 40px;
+    max-width: 100%;
   }
   body {
     overflow: hidden;
@@ -605,11 +603,13 @@ body {
   .certificate-img {
     background-color: #2A0001;
     -webkit-print-color-adjust: exact;
+    width: 103%;
   }
   .certificate-content {
     color: white;
     -webkit-print-color-adjust: exact;
             color-adjust: exact;
+    margin-top: 30px;
   }
 }
 
