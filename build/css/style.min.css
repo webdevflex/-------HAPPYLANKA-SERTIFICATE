@@ -603,13 +603,14 @@ body {
   .certificate-img {
     background-color: #2A0001;
     -webkit-print-color-adjust: exact;
-    width: 103%;
+    width: 100%;
   }
   .certificate-content {
     color: white;
     -webkit-print-color-adjust: exact;
             color-adjust: exact;
     margin-top: 30px;
+    padding-top: 40px;
   }
 }
 
