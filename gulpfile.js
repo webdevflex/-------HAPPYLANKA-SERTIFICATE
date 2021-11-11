@@ -41,9 +41,9 @@ function sasscss(){
         outputStyle: "expanded"
     }))
     .pipe(autoprefixer({overrideBrowserslist:['last 10 versions'], grid:true}))
-    .pipe(cleanCSS({
-        level: 2
-     }))
+    // .pipe(cleanCSS({
+    //     level: 2
+    //  }))
     .pipe(concat('style.min.css'))
     .pipe(gulp.dest('build/css/'))
     .pipe(browserSync.stream());
