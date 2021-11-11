@@ -602,6 +602,11 @@ body {
   body {
     overflow: hidden;
   }
+  .certificate-img {
+    background-color: #2A0001;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
 }
 
 /* <!-- certificate end--> */
